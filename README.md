@@ -2,7 +2,7 @@
 
 ### learning here some important topic
 
-- used verification code sending mail
+- reset password using verification code sending mail
 
 
 - jwt token generation and used it for authentication
