@@ -12,10 +12,10 @@ export const tokenEncode = (email,user_id) => {
 }
 
 
-export const tokenDecode = (token) => {
-    try{
-        return jwt.verify(token, JWT_KEY);
-    }catch(e){
-        console.error(e);
+export const TokenDecode=(token)=>{
+    try {
+        return jwt.verify(token,JWT_KEY)
+    }catch (e) {
+        return null
     }
 }
